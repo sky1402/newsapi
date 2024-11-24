@@ -10,6 +10,9 @@ use CodeIgniter\Router\RouteCollection;
 /**Api for Frontend Website starts*/
 
 $routes->get('/', 'Admin\ApiController::index');
+
+$routes->get('get-home-section-from-admin', 'Admin\ApiController::homesetup');
+
 $routes->get('get-front-topbar-details', 'Admin\ApiController::getTopbarDetails');
 $routes->get('get-front-header-details', 'Admin\ApiController::getHeaderDetails');
 $routes->get('get-front-menu-details', 'Admin\ApiController::getMenuDetails');

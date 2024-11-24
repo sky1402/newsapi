@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 24, 2024 at 10:37 AM
+-- Generation Time: Nov 24, 2024 at 11:23 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.17
 
@@ -185,6 +185,36 @@ CREATE TABLE `header` (
 
 INSERT INTO `header` (`header_id`, `province_name`, `ministry`, `nirdeshnalaya`, `office_name`, `office_location`, `left_logo`, `right_logo`, `created_by`, `deleted_by`, `added_on`) VALUES
 (1, NULL, NULL, NULL, 'Online News Channel', 'Kathmandu, Nepal', '1732436815_0eca59192d3d46adefba.png', '', 0, 0, '2023-03-13 15:31:32');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `homepage_sections`
+--
+
+CREATE TABLE `homepage_sections` (
+  `id` int(11) NOT NULL,
+  `section_name` varchar(255) NOT NULL,
+  `category_ids` varchar(255) NOT NULL,
+  `priority` int(11) NOT NULL,
+  `content_type` varchar(100) NOT NULL,
+  `item_count` int(11) NOT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT 1,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `homepage_sections`
+--
+
+INSERT INTO `homepage_sections` (`id`, `section_name`, `category_ids`, `priority`, `content_type`, `item_count`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Breaking News', '1,2,3', 1, 'Breaking Section', 2, 1, '2024-11-24 09:54:24', '2024-11-24 10:12:59'),
+(2, 'News Section', '4,5', 2, 'videos', 3, 1, '2024-11-24 09:54:24', '2024-11-24 09:55:06'),
+(3, 'Entertainment Buzz', '6', 3, 'mixed', 4, 1, '2024-11-24 09:54:24', '2024-11-24 09:54:24'),
+(4, 'Health & Wellness', '7,8', 4, 'articles', 6, 1, '2024-11-24 09:54:24', '2024-11-24 09:54:24'),
+(5, 'Technology Trends', '9', 5, 'articles', 5, 0, '2024-11-24 09:54:24', '2024-11-24 09:54:24'),
+(6, 'Opinion & Editorial', '10', 6, 'articles', 2, 1, '2024-11-24 09:54:24', '2024-11-24 09:54:24');
 
 -- --------------------------------------------------------
 
@@ -1608,6 +1638,12 @@ ALTER TABLE `header`
   ADD PRIMARY KEY (`header_id`);
 
 --
+-- Indexes for table `homepage_sections`
+--
+ALTER TABLE `homepage_sections`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `icon_tbl`
 --
 ALTER TABLE `icon_tbl`
@@ -1719,6 +1755,12 @@ ALTER TABLE `footer_table`
 --
 ALTER TABLE `header`
   MODIFY `header_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `homepage_sections`
+--
+ALTER TABLE `homepage_sections`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `icon_tbl`

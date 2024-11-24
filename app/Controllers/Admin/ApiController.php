@@ -6,6 +6,7 @@ use CodeIgniter\HTTP\ResponseInterface;
 
 use App\Libraries\NepaliDateNew;
 
+use App\Models\Admin\HomesetupModel;
 use App\Models\Admin\Topbarmodel;
 use App\Models\Admin\Categorymodel;
 use App\Models\Admin\Headermodel;
@@ -15,6 +16,7 @@ use App\Models\Admin\Footermodel;
 use App\Models\Admin\Navigationmodel;
 use App\Models\Admin\Pagemodel;
 use App\Models\Admin\PostModel;
+
 
 
 
@@ -38,6 +40,8 @@ class ApiController extends ResourceController
     protected $pageModel;
     protected $postModel;
 
+    protected $homesetupModel;
+
 
 
 
@@ -54,10 +58,23 @@ class ApiController extends ResourceController
         $this->navigationModel = new Navigationmodel();
         $this->pageModel = new Pagemodel();
         $this->postModel = new Postmodel();
+        $this->homesetupModel = new HomesetupModel();
     }
     public function index()
     {
         echo "Silence is golden";
+    }
+
+
+    public function homesetup()
+    {
+
+        $data = [
+            'message' => 'success',
+            'homedetails'      => $this->homesetupModel->findAll()
+        ];
+
+        return $this->respond($data, 200);
     }
 
 
