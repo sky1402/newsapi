@@ -74,6 +74,7 @@ class ApiController extends ResourceController
             'homedetails'      => $this->homesetupModel->findAll()
         ];
 
+
         return $this->respond($data, 200);
     }
 

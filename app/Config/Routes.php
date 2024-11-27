@@ -23,9 +23,6 @@ $routes->get('get-front-category-details', 'Admin\ApiController::getCategoryDeta
 $routes->get('get-front-footer-details', 'Admin\ApiController::getFooterDetails');
 $routes->get('get-front-newsticker-details', 'Admin\ApiController::getNewsticker');
 
-
-
-
 $routes->get('get-front-postlist-by-category-id-details', 'Admin\ApiController::getpostlistBycategoryId');
 
 

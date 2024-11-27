@@ -1,0 +1,258 @@
+CRITICAL - 2024-11-27 12:13:01 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: ws'.
+[Method: GET, Route: ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:14:17 --> ErrorException: Undefined array key "content_type	"
+[Method: GET, Route: get-home-section-from-admin]
+in APPPATH\Controllers\Admin\ApiController.php on line 80.
+ 1 APPPATH\Controllers\Admin\ApiController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "content_type	"', 'D:\\xampp\\htdocs\\apinewswebsite\\app\\Controllers\\Admin\\ApiController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ApiController->homesetup()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:14:17 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:15:28 --> ErrorException: Undefined array key 1
+[Method: GET, Route: get-home-section-from-admin]
+in APPPATH\Controllers\Admin\ApiController.php on line 80.
+ 1 APPPATH\Controllers\Admin\ApiController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\apinewswebsite\\app\\Controllers\\Admin\\ApiController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ApiController->homesetup()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:15:28 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:15:56 --> ErrorException: Undefined array key "content_type	"
+[Method: GET, Route: get-home-section-from-admin]
+in APPPATH\Controllers\Admin\ApiController.php on line 80.
+ 1 APPPATH\Controllers\Admin\ApiController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "content_type	"', 'D:\\xampp\\htdocs\\apinewswebsite\\app\\Controllers\\Admin\\ApiController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ApiController->homesetup()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:15:56 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:16:13 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:16:51 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:17:16 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:17:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:17:56 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:23:14 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:36:42 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:37:27 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:38:26 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:38:34 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:38:43 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:39:10 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:39:48 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:42:39 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:43:21 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:43:43 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:44:11 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:44:41 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:45:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 12:45:36 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-11-27 13:11:30 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: get-home-section-from-admin/ws'.
+[Method: GET, Route: get-home-section-from-admin/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: get-home-section-from-admin/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')

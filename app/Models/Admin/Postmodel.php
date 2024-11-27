@@ -41,15 +41,17 @@ class Postmodel extends Model
             ->first();
     }
 
-    public function postforcategory($id)
+    public function postForCategory($ids)
     {
-        return $this->join('categorytbl', 'FIND_IN_SET(categorytbl.cat_id,posttbl.post_caty_id)>0')
-            ->where('categorytbl.cat_id', $id)
+        $idArray = explode(',', $ids);
+        return $this->join('categorytbl', 'FIND_IN_SET(categorytbl.cat_id, posttbl.post_caty_id) > 0')
+            ->whereIn('categorytbl.cat_id', $idArray)
             ->where('posttbl.delete_status', 0)
             ->where('posttbl.status_id', 1)
             ->orderBy('posttbl.post_id', 'ASC')
             ->findAll();
     }
+
 
     public function postForBlog($id)
     {
