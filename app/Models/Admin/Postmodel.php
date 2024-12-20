@@ -43,14 +43,18 @@ class Postmodel extends Model
 
     public function postForCategory($ids)
     {
-        $idArray = explode(',', $ids);
+        $idArray = explode(',', $ids); // Split the input string into an array of IDs
+
+        // Build the query
         return $this->join('categorytbl', 'FIND_IN_SET(categorytbl.cat_id, posttbl.post_caty_id) > 0')
-            ->whereIn('categorytbl.cat_id', $idArray)
+            ->whereIn('categorytbl.cat_id', $idArray) // Ensure the category IDs match
             ->where('posttbl.delete_status', 0)
             ->where('posttbl.status_id', 1)
+            ->groupBy('posttbl.post_id') // Prevent repetition by grouping by post_id
             ->orderBy('posttbl.post_id', 'ASC')
             ->findAll();
     }
+
 
 
     public function postForBlog($id)

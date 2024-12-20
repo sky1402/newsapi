@@ -122,9 +122,9 @@ class PostController extends BaseController
         $postdate = $this->request->getPost('postdate');
 
         if (!empty($postdate)) {
-            $bsDate = $this->nepaliDateNew->getEnglishDate($postdate);
+            $bsDate = $this->nepaliDateNew->getEnglishDate($postdate) . ' ' . date('H:i:s');
         } else {
-            $bsDate = date('Y-m-d');
+            $bsDate = date('Y-m-d H:i:s');
         }
 
         // Set validation rules

@@ -32,51 +32,53 @@
                     <div class="tab-pane fade" id="media-library" role="tabpanel" aria-labelledby="media-library-tab">
                         <div class="container border p-2">
                             <ul class="list-unstyled" id="lists_box">
-                                <?php if(count($uploaded_file)>0): foreach ($uploaded_file as $uf) :
-                                    $extension = pathinfo($uf['doc_temp_name'], PATHINFO_EXTENSION);
+                                <?php if (count($uploaded_file) > 0): foreach ($uploaded_file as $uf) :
+                                        $extension = pathinfo($uf['doc_temp_name'], PATHINFO_EXTENSION);
                                 ?>
-                                <div class="col" data="<?php if(!empty($uf['doc_id'])): echo $uf['doc_id']; endif;?>">
-                                    <li class="media-list appen" tabindex="0" role="checkbox" aria-checked="false">
-                                        <span class="check"> <i class="fa fa-check"></i></span>
+                                        <div class="col" data="<?php if (!empty($uf['doc_id'])): echo $uf['doc_id'];
+                                                                endif; ?>">
+                                            <li class="media-list appen" tabindex="0" role="checkbox" aria-checked="false">
+                                                <span class="check"> <i class="fa fa-check"></i></span>
 
-                                        <div class="attached_file">
-                                            <div class="thumbnail">
-                                                <?php if (in_array($extension,['jpg','jpeg','png','gif'])) : ?>
+                                                <div class="attached_file">
+                                                    <div class="thumbnail">
+                                                        <?php if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif', 'JPG', 'JPEG', 'PNG', 'GIF'])) : ?>
 
-                                                <img class="w-100 object-fit-cover"
-                                                    src="<?php echo base_url() . 'assets/uploads/' . $uf['doc_temp_name']; ?>"
-                                                    alt="" width="auto" height="auto">
+                                                            <img class="w-100 object-fit-cover"
+                                                                src="<?php echo base_url() . 'assets/uploads/' . $uf['doc_temp_name']; ?>"
+                                                                alt="" width="auto" height="auto">
 
 
-                                                <?php endif; ?>
-                                            </div>
-                                            <div class="file-name">
+                                                        <?php endif; ?>
+                                                    </div>
+                                                    <div class="file-name">
 
-                                                <?php if (in_array($extension,['jpg','jpeg','png','gif'])) : ?>
+                                                        <?php if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif', 'JPG', 'JPEG', 'PNG', 'GIF'])) : ?>
 
-                                                <a class="doc" href="<?php if (!empty($uf['doc_temp_name'])) : echo base_url() . 'assets/uploads/' . $uf['doc_temp_name'];
+                                                            <a class="doc" href="<?php if (!empty($uf['doc_temp_name'])) : echo base_url() . 'assets/uploads/' . $uf['doc_temp_name'];
                                                                                     endif ?>" hidden>
-                                                    <?php if (!empty($uf['doc_temp_name'])) : echo $uf['doc_name'];
+                                                                <?php if (!empty($uf['doc_temp_name'])) : echo $uf['doc_name'];
                                                                 endif ?>
-                                                </a>
-                                                <?php else : ?>
-                                                <div class="position-relative d-flex flex-column">
-                                                    <img class="w-100 h-100"
-                                                        src="<?=base_url().'assets/uploads/pdf.png'?>" alt="">
-                                                    <a class="doc position-absolute bottom-0 bg-light m-lib-a" href="<?php if (!empty($uf['doc_temp_name'])) : echo base_url() . 'assets/uploads/' . $uf['doc_temp_name'];
-                                                                                        endif ?>" disabled="disabled"><?php if ($uf['doc_name']) : echo $uf['doc_name'];
-                                                                                                    endif ?>
-                                                    </a>
+                                                            </a>
+                                                        <?php else : ?>
+                                                            <div class="position-relative d-flex flex-column">
+                                                                <img class="w-100 h-100"
+                                                                    src="<?= base_url() . 'assets/uploads/pdf.png' ?>" alt="">
+                                                                <a class="doc position-absolute bottom-0 bg-light m-lib-a" href="<?php if (!empty($uf['doc_temp_name'])) : echo base_url() . 'assets/uploads/' . $uf['doc_temp_name'];
+                                                                                                                                    endif ?>" disabled="disabled"><?php if ($uf['doc_name']) : echo $uf['doc_name'];
+                                                                                                                        endif ?>
+                                                                </a>
+                                                            </div>
+
+                                                        <?php endif ?>
+
+                                                    </div>
                                                 </div>
-
-                                                <?php endif ?>
-
-                                            </div>
+                                            </li>
+                                            <div class="dlt_media">delete <small><i class="fa fa-trash"></i></small></div>
                                         </div>
-                                    </li>
-                                    <div class="dlt_media">delete <small><i class="fa fa-trash"></i></small></div>
-                                </div>
-                                <?php endforeach ; endif ?>
+                                <?php endforeach;
+                                endif ?>
                             </ul>
 
                             <div class="col d-flex flex-row gap-2">
@@ -84,7 +86,8 @@
                                     <small class="text-danger">यदि pdf फाइलको लागि डाउनलोड आइकन आवश्यक छैन भने, यसलाई
                                         अनचेक
                                         गर्नुहोस्</small>
-                                    <small class="text-danger">If a download icon is not required for a pdf file, uncheck
+                                    <small class="text-danger">If a download icon is not required for a pdf file,
+                                        uncheck
                                         it</small>
                                 </div>
                                 <div class="col">
@@ -94,7 +97,7 @@
                         </div>
                         <div class="modal-footer bg-light justify-content-between">
                             <div class="Paginator">
-                                <?=$pagination->links() ;?>
+                                <?= $pagination->links(); ?>
                             </div>
                             <div class="">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

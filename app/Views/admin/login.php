@@ -11,37 +11,37 @@
     <link rel="icon" type="image/x-icon" href="<?= base_url('assets/uploads/favicon.ico') ?>">
 
     <style>
-    .header-box {
+        .header-box {
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        background: #000c;
-    }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            /* background: #000c; */
+        }
 
-    .login-form {
+        .login-form {
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /* height: 100%; */
-        background: #fff5e9;
-    }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* height: 100%; */
+            background: #fff5e9;
+        }
 
-    .txt-red {
+        .txt-red {
 
-        color: #c7020c;
-        padding: 20px 0px !important;
-    }
+            color: #c7020c;
+            padding: 20px 0px !important;
+        }
 
-    .txt-blue {
+        .txt-blue {
 
-        color: #1f60ba;
-        padding: 20px 0px !important;
-    }
+            color: #1f60ba;
+            padding: 20px 0px !important;
+        }
     </style>
 </head>
 
@@ -53,32 +53,31 @@ endif ?>
         <section class="">
             <div class="container-fluid p-5">
                 <div class="row">
-                    <div class="col-sm-6 px-0 d-sm-block "
-                        style="background:url('<?php echo base_url() . 'assets/uploads/building1.png' ?>'); background-size:cover; background-position: center center;">
+                    <div class="col-sm-6 px-0 d-sm-block " style="background: linear-gradient(79deg, #e9f7ff80, #fff5e9);
+    border: 1px solid #ede6de;">
 
                         <div class="container header-box">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                <img class="logo text-center"
-                                    src="<?php echo base_url() . 'assets/uploads/' ?><?php if (isset($left_logo)) : echo $left_logo;
+                                <img class="logo text-center" src="<?php echo base_url() . 'assets/uploads/' ?><?php if (isset($left_logo)) : echo $left_logo;
                                                                                                                 endif ?>" alt="" width="150px">
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
 
                                 <?php if (!empty($province_name)) : ?> <small><b
-                                        class="txt-red"><?php echo $province_name ?></b></small><br
-                                    class="my-1"><?php endif ?>
+                                            class="txt-red"><?php echo $province_name ?></b></small><br
+                                        class="my-1"><?php endif ?>
 
                                 <?php if (!empty($ministry)) : ?> <small><b
-                                        class="txt-red"><?php echo $ministry ?></b></small><br
-                                    class="my-1"><?php endif ?>
+                                            class="txt-red"><?php echo $ministry ?></b></small><br
+                                        class="my-1"><?php endif ?>
                                 <?php if (!empty($nirdeshnalaya)) : ?> <small><b
-                                        class="txt-red"><?php echo $nirdeshnalaya ?></b></small><br
-                                    class="my-1"><?php endif ?>
+                                            class="txt-red"><?php echo $nirdeshnalaya ?></b></small><br
+                                        class="my-1"><?php endif ?>
                                 <?php if (!empty($office_name)) : ?> <h5><b
-                                        class="txt-blue"><?php echo $office_name ?></b></h5><?php endif ?>
+                                            class="txt-blue"><?php echo $office_name ?></b></h5><?php endif ?>
                                 <?php if (!empty($office_location)) : ?> <small><b
-                                        class="txt-red"><?php echo $office_location ?></b></small><br
-                                    class="my-1"><?php endif ?>
+                                            class="txt-red"><?php echo $office_location ?></b></small><br
+                                        class="my-1"><?php endif ?>
                             </div>
                         </div>
                     </div>
@@ -111,21 +110,21 @@ endif ?>
                                 <div class="pt-1 mb-4">
                                     <div class="row">
                                         <?php if (Session('warning_msg')) : ?>
-                                        <small>
+                                            <small>
 
 
-                                            <?php echo Session('warning_msg'); ?>
+                                                <?php echo Session('warning_msg'); ?>
 
-                                        </small>
+                                            </small>
                                         <?php endif; ?>
                                     </div>
                                     <?php if (Session('btn')) : ?>
-                                    <small>
+                                        <small>
 
 
-                                        <?php echo Session('btn'); ?>
+                                            <?php echo Session('btn'); ?>
 
-                                    </small>
+                                        </small>
                                     <?php endif; ?>
 
                                     <p class="small mb-1 pb-lg-2"><a class="text-muted"
@@ -136,12 +135,12 @@ endif ?>
 
                                 <div class="row">
                                     <?php if (Session('msg')) : ?>
-                                    <small>
+                                        <small>
 
-                                        <div class="alert alert-danger p-2 m-0">
-                                            <?php echo Session('msg'); ?>
-                                        </div>
-                                    </small>
+                                            <div class="alert alert-danger p-2 m-0">
+                                                <?php echo Session('msg'); ?>
+                                            </div>
+                                        </small>
                                     <?php endif; ?>
                                 </div>
                             </form>

@@ -1,0 +1,393 @@
+CRITICAL - 2024-12-20 13:06:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734679285.437616, 7, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734679285.437616, 7, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 13:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 13:06:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734679298.176651, 6, 20, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734679298.176651, 6, 20, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 13:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 13:07:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734679377.042031, 6, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734679377.042031, 6, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:04:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734689939.999005, 7, 25, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734689939.999005, 7, 25, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:13:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690526.962837, 7, 35, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690526.962837, 7, 35, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:13:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690529.301659, 5, 15, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690529.301659, 5, 15, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:14:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690546.219534, 6, 15, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690546.219534, 6, 15, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:14:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690549.980494, 6, 15, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690549.980494, 6, 15, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:14:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690564.396487, 6, 15, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690564.396487, 6, 15, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:14:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690587.701841, 5, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690587.701841, 5, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:15:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690602.794746, 6, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690602.794746, 6, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:15:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690607.669394, 6, 15, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690607.669394, 6, 15, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:15:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690611.009105, 7, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690611.009105, 7, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:15:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690616.575386, 5, 15, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690616.575386, 5, 15, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:16:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690671.888324, 6, 15, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690671.888324, 6, 15, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:16:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690674.581733, 6, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690674.581733, 6, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:16:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690682.491996, 5, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690682.491996, 5, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:16:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690685.699186, 4, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690685.699186, 4, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:16:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690692.929963, 6, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690692.929963, 6, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:18:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690830.028485, 6, 15, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690830.028485, 6, 15, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:18:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690832.505442, 7, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690832.505442, 7, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:19:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690841.155003, 5, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690841.155003, 5, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:19:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690847.61096, 5, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690847.61096, 5, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-20 16:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 16:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 16:19:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734690853.302239, 5, 10, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734690853.302239, 5, 10, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')

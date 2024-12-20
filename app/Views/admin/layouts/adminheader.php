@@ -246,6 +246,15 @@
                         </li>
 
                         <li class="nav-item mx-1 bg-light rounded-0 mb-1">
+                            <a href="<?php echo base_url() . 'ads-setup' ?>" class="nav-link w-100 mb-0 ">
+                                <i class="fa-solid fa-layer-group"></i>
+                                <p class="text-dark">
+                                    Ads Setup
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item mx-1 bg-light rounded-0 mb-1">
                             <a href="<?php echo base_url() . 'popup-setup' ?>" class="nav-link w-100 mb-0 ">
                                 <i class="fa-solid text-dark fa-pen pr-1"></i>
                                 <p class="text-dark">

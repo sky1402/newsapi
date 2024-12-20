@@ -10,9 +10,7 @@ use CodeIgniter\Router\RouteCollection;
 /**Api for Frontend Website starts*/
 
 $routes->get('/', 'Admin\ApiController::index');
-
 $routes->get('get-home-section-from-admin', 'Admin\ApiController::homesetup');
-
 $routes->get('get-front-topbar-details', 'Admin\ApiController::getTopbarDetails');
 $routes->get('get-front-header-details', 'Admin\ApiController::getHeaderDetails');
 $routes->get('get-front-menu-details', 'Admin\ApiController::getMenuDetails');
@@ -22,8 +20,9 @@ $routes->get('get-front-post-details', 'Admin\ApiController::getPostDetails');
 $routes->get('get-front-category-details', 'Admin\ApiController::getCategoryDetails');
 $routes->get('get-front-footer-details', 'Admin\ApiController::getFooterDetails');
 $routes->get('get-front-newsticker-details', 'Admin\ApiController::getNewsticker');
-
 $routes->get('get-front-postlist-by-category-id-details', 'Admin\ApiController::getpostlistBycategoryId');
+$routes->get('get-front-pop-up', 'Admin\ApiController::getPopup');
+
 
 
 
@@ -138,6 +137,12 @@ $routes->group('', ['filter' => 'islogin'], function ($routes) {
 
 
         /**Video Route ends here */
+
+
+        $routes->get('ads-setup', 'Admin\AdsController');
+        $routes->post('save-ads', 'Admin\AdsController::saveAds');
+
+
 
 
         /**Footer setup Route Starts here */

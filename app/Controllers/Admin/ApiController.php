@@ -16,6 +16,8 @@ use App\Models\Admin\Footermodel;
 use App\Models\Admin\Navigationmodel;
 use App\Models\Admin\Pagemodel;
 use App\Models\Admin\PostModel;
+use App\Models\Admin\Popupmodel;
+
 
 
 
@@ -41,6 +43,8 @@ class ApiController extends ResourceController
     protected $postModel;
 
     protected $homesetupModel;
+    protected $popupmodel;
+
 
 
 
@@ -59,10 +63,11 @@ class ApiController extends ResourceController
         $this->pageModel = new Pagemodel();
         $this->postModel = new Postmodel();
         $this->homesetupModel = new HomesetupModel();
+        $this->popupmodel = new Popupmodel();
     }
     public function index()
     {
-        echo "Silence is golden";
+        return redirect()->to('login');
     }
 
 
@@ -178,13 +183,26 @@ class ApiController extends ResourceController
     public function getpostlistBycategoryId()
     {
 
-        $catId = $this->request->getGet('Id');
+        $catId = $this->request->getGet('catId');
 
         $data = [
             'message' => 'success',
             'allpostbyId'      => $this->postModel->postforcategory($catId)
         ];
 
+
+
+        return $this->respond($data, 200);
+    }
+
+
+    public function getPopup()
+    {
+
+        $data = [
+            'message' => 'success',
+            'popupmodel'      => $this->popupmodel->where('active_status', '1')->where('delete_status', '0')->findAll()
+        ];
 
         return $this->respond($data, 200);
     }
