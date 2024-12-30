@@ -1,0 +1,60 @@
+INFO - 2024-12-23 10:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 10:53:08 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/1734690829_9b7801aea9b6b43a4073.jpeg'.
+[Method: GET, Route: assets/uploads/1734690829_9b7801aea9b6b43a4073.jpeg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/1734690829_9b7801aea9b6b43a4073.jpeg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-12-23 10:53:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734930487.461774, 7, 20, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734930487.461774, 7, 20, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-12-23 10:53:10 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: login/ws'.
+[Method: GET, Route: login/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: login/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+INFO - 2024-12-23 10:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 10:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 10:53:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 218.
+ 1 SYSTEMPATH\Debug\Toolbar.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar.php', 218)
+ 2 SYSTEMPATH\Debug\Toolbar.php(201): CodeIgniter\Debug\Toolbar->renderTimelineRecursive([...], 1734930505.698293, 6, 20, [], 0)
+ 3 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(102): CodeIgniter\Debug\Toolbar->renderTimeline([...], 1734930505.698293, 6, 20, [])
+ 4 SYSTEMPATH\Debug\Toolbar.php(534): include('D:\\xampp\\htdocs\\apinewswebsite\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 5 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 6 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 7 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')
+CRITICAL - 2024-12-23 10:53:28 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: dashboard/ws'.
+[Method: GET, Route: dashboard/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: dashboard/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\apinewswebsite\\public\\index.php')

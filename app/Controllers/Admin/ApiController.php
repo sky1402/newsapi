@@ -206,4 +206,23 @@ class ApiController extends ResourceController
 
         return $this->respond($data, 200);
     }
+
+
+    public function postsharefacebook()
+    {
+        $postId = $this->request->getGet('id');
+
+        if (!empty($postId) && is_numeric($postId)) {
+            $postDetails = $this->postModel->getSinglePostData($postId);
+
+            if ($postDetails) {
+                $data['postdetailsbyId'] = $postDetails;
+                echo view('frontend/facebookshare', $data);
+            } else {
+                return $this->respond('Post not found', 404);
+            }
+        } else {
+            return $this->respond('Invalid Post ID', 400);
+        }
+    }
 }

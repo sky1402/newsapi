@@ -11,23 +11,27 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.js"></script>
 <script src="https://ilikenwf.github.io/jquery.mjs.nestedSortable.js"></script>
-<script src="<?php echo base_url().'assets/admin/js/tinyMce.js'?>"
-    referrerpolicy="origin"></script>
+<script src="<?php echo base_url() . 'assets/admin/js/tinyMce.js' ?>" referrerpolicy="origin"></script>
 <script>
-var changesMade = false;
-tinymce.init({
-    selector: 'textarea',
-    plugins: 'image  fullscreen code anchor autolink charmap codesample link lists media searchreplace table visualblocks textblocks insertdatetime',
-    toolbar: ' undo redo code | blocks fontfamily fontsize | bold italic underline | link media table | align lineheight | numlist bullist indent outdent |  charmap | removeformat',
-    extended_valid_elements: 'img[src|alt|width|height|style]',
-    cleanup: false,
-    convert_urls: false,
-    relative_urls: false,
-    remove_script_host: false,
-    image_dimensions: true,
-    referrer_policy: 'origin',
-});
-// tinyMCE.activeEditor.ui.registry.getAll().menuItems
+    var changesMade = false;
+    tinymce.init({
+        selector: 'textarea',
+        plugins: 'paste image  fullscreen code anchor autolink charmap codesample link lists media searchreplace table visualblocks textblocks insertdatetime',
+        toolbar: 'paste undo redo code | blocks fontfamily fontsize | bold italic underline | link media table | align lineheight | numlist bullist indent outdent |  charmap | removeformat',
+        extended_valid_elements: 'img[src|alt|width|height|style]',
+        cleanup: false,
+        convert_urls: false,
+        relative_urls: false,
+        remove_script_host: false,
+        image_dimensions: true,
+        referrer_policy: 'origin',
+        paste_as_text: true,
+        paste_data_images: true, // Allow pasting images
+        paste_webkit_styles: 'all', // Retain all webkit styles
+        paste_retain_style_properties: 'all',
+        contextmenu: 'paste',
+    });
+    // tinyMCE.activeEditor.ui.registry.getAll().menuItems
 </script>
 
 
@@ -45,47 +49,47 @@ tinymce.init({
 <script src="<?php echo base_url('assets/admin/js/combobox.js') ?>"></script>
 
 <script type="text/javascript">
-window.onload = function() {
-    $('.datepicker').nepaliDatePicker();
-    $('.postdatepicker').nepaliDatePicker();
+    window.onload = function() {
+        $('.datepicker').nepaliDatePicker();
+        $('.postdatepicker').nepaliDatePicker();
 
-};
+    };
 </script>
 
 <script>
-$(document).ready(function() {
-    var changesMade = false;
+    $(document).ready(function() {
+        var changesMade = false;
 
-    function handleFormSubmission() {
-        if (changesMade) {
-            var confirmDiscard = confirm("Changes have been made. Are you sure you want to save them?");
-            if (!confirmDiscard) {
-                return false;
+        function handleFormSubmission() {
+            if (changesMade) {
+                var confirmDiscard = confirm("Changes have been made. Are you sure you want to save them?");
+                if (!confirmDiscard) {
+                    return false;
+                }
             }
+            return true;
         }
-        return true;
-    }
 
-    $(document).on('submit', 'form', function() {
-        changesMade = false;
+        $(document).on('submit', 'form', function() {
+            changesMade = false;
+        });
+
+
+        $(window).on('beforeunload', function() {
+            if (changesMade) {
+
+                return "Changes have been made. Are you sure you want to leave this page?";
+            }
+        });
+
+        $('textarea').on('input', function() {
+            changesMade = true;
+        });
+
+        $('input').on('input', function() {
+            changesMade = true;
+        });
     });
-
-
-    $(window).on('beforeunload', function() {
-        if (changesMade) {
-
-            return "Changes have been made. Are you sure you want to leave this page?";
-        }
-    });
-
-    $('textarea').on('input', function() {
-        changesMade = true;
-    });
-
-    $('input').on('input', function() {
-        changesMade = true;
-    });
-});
 </script>
 
 </body>

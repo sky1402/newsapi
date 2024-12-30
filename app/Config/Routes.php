@@ -22,6 +22,8 @@ $routes->get('get-front-footer-details', 'Admin\ApiController::getFooterDetails'
 $routes->get('get-front-newsticker-details', 'Admin\ApiController::getNewsticker');
 $routes->get('get-front-postlist-by-category-id-details', 'Admin\ApiController::getpostlistBycategoryId');
 $routes->get('get-front-pop-up', 'Admin\ApiController::getPopup');
+$routes->get('post-share-facebook', 'Admin\ApiController::postsharefacebook');
+
 
 
 
@@ -141,6 +143,8 @@ $routes->group('', ['filter' => 'islogin'], function ($routes) {
 
         $routes->get('ads-setup', 'Admin\AdsController');
         $routes->post('save-ads', 'Admin\AdsController::saveAds');
+        $routes->get('delete-ads', 'Admin\AdsController::softdeleteAds');
+
 
 
 

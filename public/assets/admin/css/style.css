@@ -634,35 +634,34 @@ body.dragging * {
 
 .notification {
   position: absolute !important;
-  animation: slideIn 3s forwards;
+  animation: slideIn 15s forwards; /* Adjust duration if needed */
   padding: 15px 10px;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   display: flex;
-  top: 2 !important;
+  top: 2px !important;
   right: 20px;
 }
 
 @keyframes slideIn {
   0% {
-    transform: translateX(500px);
+    transform: translateX(500px); /* Start off-screen */
     opacity: 1;
   }
-
-  25% {
-    transform: translateX(18px);
-    opacity: 0.9;
+  10% {
+    transform: translateX(18px); /* Slide in */
+    opacity: 1;
   }
-  50% {
-    transform: translateX(18px);
-    opacity: 0.8;
+  60% {
+    transform: translateX(18px); /* Hold position */
+    opacity: 1;
   }
-  75% {
-    transform: translateX(18px);
-    opacity: 0.7;
+  90% {
+    transform: translateX(500px); /* Slide out */
+    opacity: 0.75;
   }
   100% {
-    transform: translateX(1600px);
+    transform: translateX(500px); /* Fully off-screen */
     opacity: 0;
   }
 }
@@ -1469,4 +1468,11 @@ input:checked + .slider:before {
 .adminImg {
   height: 50px;
   width: 50px;
+}
+
+.adsImage {
+  max-height: 50px;
+}
+.adsImageEdit {
+  max-height: 100px;
 }

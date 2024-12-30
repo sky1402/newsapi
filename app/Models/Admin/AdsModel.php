@@ -12,5 +12,13 @@ class AdsModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+
+    // Fields that can be inserted/updated
+    protected $allowedFields    = ['image', 'priority'];
+
+    // Timestamps for soft deletes
+    protected $useTimestamps    = true;
+    protected $createdField     = 'created_at';
+    protected $updatedField     = 'updated_at';
+    protected $deletedField     = 'deleted_at';
 }

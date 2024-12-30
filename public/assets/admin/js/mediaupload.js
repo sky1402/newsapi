@@ -153,7 +153,8 @@ $(document).ready(function () {
       if (validExtensions.includes(extension)) {
         editor.selection.setContent(
           '<img src="' +
-            "/assets/uploads/" +
+            baseURL +
+            "assets/uploads/" +
             fileName +
             '" width="300px" height="200px">'
         );
@@ -163,7 +164,8 @@ $(document).ready(function () {
         if ($("#togetDownloadIcon").prop("checked")) {
           editor.selection.setContent(
             '<a href="' +
-              "/assets/uploads/" +
+              baseURL +
+              "assets/uploads/" +
               fileName +
               '"><img src="' +
               baseURL +
@@ -172,7 +174,8 @@ $(document).ready(function () {
         } else {
           editor.selection.setContent(
             '<a href="' +
-              "/assets/uploads/" +
+              baseURL +
+              "assets/uploads/" +
               fileName +
               '">' +
               nameOfFile +
